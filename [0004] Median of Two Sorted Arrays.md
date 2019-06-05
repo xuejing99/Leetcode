@@ -44,7 +44,7 @@ class Solution:
   $ B = \{y_1,y_2, \cdots, y_{j-1}, y_j, y_{j+1}, \cdots, y_n\} $  
   找到A, B集合的中位数，意味着，找到合适的$i$，$j$，使得：  
   （1） $i+j = n+m-i-j$ 或 $i+j = n+m-i-j+1$  $\Rightarrow$ $j = \frac{m+n+1}{2}-i$  
-  （2） $B[j-1] <= A[i]$，且 $A[j-1] <= B[j]$
+  （2） $B[j-1] \leqslant A[i]$，且 $A[j-1] \leqslant B[j]$  
 3. 考虑约束项：$0 \leqslant i \leqslant m$, $0 \leqslant j = \frac{m+n+1}{2}-i \leqslant n$ $\Rightarrow m \leqslant n$
  
 
