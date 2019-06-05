@@ -48,7 +48,7 @@ class Solution:
 3. 考虑约束项：$0 <= i <= m$, $0 <= j = \frac{m+n+1}{2}-i <= n$ $\Rightarrow m <= n$
         
         
-
+算法：
 1. 考虑约束项：若$m>n$，则将两个数组互换
 2. 设 $imim=0, imax=m$，然后开始在[imin,imax]中进行搜索
 3. 令 $i=\frac{imin+imax}{2}, j = \frac{m+n+1}{2}-i$，循环二叉树搜索 
