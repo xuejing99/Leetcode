@@ -45,7 +45,7 @@ class Solution:
   找到A, B集合的中位数，意味着，找到合适的$i$，$j$，使得：  
   （1） $i+j = n+m-i-j$ 或 $i+j = n+m-i-j+1$  $\Rightarrow$ $j = \frac{m+n+1}{2}-i$  
   （2） $B[j-1] <= A[i]$，且 $A[j-1] <= B[j]$  
-3. 考虑约束项：$0 <= i \leqslant m$, $0 <= j = \frac{m+n+1}{2}-i <= n$ $\Rightarrow m <= n$
+3. 考虑约束项：$0 <= i <= m$, $0 <= j = \frac{m+n+1}{2}-i <= n$ $\Rightarrow m <= n$
  
 
 1. 考虑约束项：若$m>n$，则将两个数组互换
