@@ -79,10 +79,6 @@ class Solution:
         return min(max(minus * num, minimum), maximum)
 ```
 
-存在的问题：
-- 读题不仔细，没有考虑开头为空白字符的情况
-- 没有考虑开头是"+"号的情况
-- line 17: f char not in {0,1,2,3,4,5,6,7,8,9} $\to$ if char not in {'0','1','2','3','4','5','6','7','8','9'}
 
 ## 2. Intercept the string and convert it
 
