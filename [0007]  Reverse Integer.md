@@ -54,7 +54,7 @@ class Solution:
 
 ### 2. Pop and Push Digits & Check before Overflow
 
-思路：$ pop \Leftrightarrow x\%10, x=x/10$; push \Leftrightarrow$ x*10 $；在此基础上考虑边界条件。 
+思路：$ pop \Leftrightarrow x\%10, x=x/10$; push $\Leftrightarrow x*10 $；在此基础上考虑边界条件。 
 
 复杂度分析：
 - 时间复杂度：$O(log(x))$
