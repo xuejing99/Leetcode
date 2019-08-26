@@ -80,7 +80,7 @@ class Solution:
 ```
 
 
-## 2. Intercept the string and convert it
+### 2. Intercept the string and convert it
 
 
 ```python
