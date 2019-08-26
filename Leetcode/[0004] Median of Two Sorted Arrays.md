@@ -76,7 +76,7 @@ class Solution:
         if m>n:  nums1, nums2, m, n = nums2, nums1, n, m
         if m == 0: 
             if n%2 == 1: return nums2[n//2]
-            else: return ( nums2[n//2-1] + nums2[n//2]) / 2.
+            else: return (nums2[n//2-1] + nums2[n//2]) / 2.
         
         imin, imax = 0, m
         while (imin <= imax):
