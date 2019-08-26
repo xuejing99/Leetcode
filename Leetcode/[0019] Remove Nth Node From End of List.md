@@ -1,5 +1,5 @@
 
-# <center> 19. Remove Nth Node From End of List</center>
+# <p align="center"> 19. Remove Nth Node From End of List</p>
 
 ## 1. Problem:
 Given a linked list, remove the n-th node from the end of list and return its head.  
